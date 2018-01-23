@@ -1,4 +1,4 @@
-pjName := Ocaml_Demo
+pjName := OcamlRealWorld
 
 docker:
 	docker run \

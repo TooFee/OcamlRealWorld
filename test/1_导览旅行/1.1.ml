@@ -1,4 +1,6 @@
 #!/usr/bin/env ocaml
+(* 1.1 OCaml作为计算器 *)
+
 open Printf;;
 
 let a = 3 + 4;;
