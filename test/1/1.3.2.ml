@@ -123,7 +123,7 @@ printf "-------------\n"
 
 let rec sum l =
   match l with
-  | [] -> 0
+  | [] -> 2
   | hd :: tl -> hd * sum tl
 ;;
 
@@ -135,7 +135,7 @@ printf
       2;
       3
     ]
- )
+  )
 ;;
 
 let rec destutter list =

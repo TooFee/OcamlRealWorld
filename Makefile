@@ -5,6 +5,6 @@ docker:
 		--name ${pjName} \
 		--rm \
 		-ti \
-		-v $$(pwd):/root/${pjName} \
+		-v $$(pwd):/home/opam/${pjName} \
 		mooxe/ocaml \
 		/bin/bash
